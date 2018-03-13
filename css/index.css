@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+.collect{
+	height: 30px;
+	background: #eeeeee;
+}
+.collect img{
+	margin-left: 73px;
+	margin-right: 5px;
+
+}
+.collect img:hover{
+	-webkit-transition: 0.4s;
+	-webkit-transform: rotate(1080deg);/*小星星旋转*/
+}
+.collect a{
+	font-size: 13px;
+	line-height: 13px;
+	font-family: "微软雅黑";
+	color: #666;
+}
+.collect a:hover,
+.nav a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.JDlogo {
+	padding-left: 17px;
+	background: url(../img/iconlist_2.png) left center no-repeat;	
+	background-position: -128px -359px;
+}
+.JDlogo:hover{
+	background:url(../img/iconlist_2.png) left center no-repeat;
+	background-position: -128px -399px;
+}
+.nav{
+	padding:38px 0  30px 548px;	
+}
+.nav span,a{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	color: #666;
+}
+.nav .JDlogo{
+	display: inline-block;
+	height: 23px;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+.nav>a:not(:nth-child(2)):not(:last-child){
+	padding-right: 6px;
+	border-right: 1px #666 solid;
+}
+.nav img{
+	margin-right: 4px;
+	margin-left: 4px;
+}
+.search{
+	background-color: #EEEEEE;
+	height: 60px;
+}
+.search .seartext{
+	position: absolute;
+}
+.search .logo{
+	margin:0 70px 0 65px;
+}
+.search #searchtext{
+	border: none;
+	width: 403px;
+	height: 36px;
+	background: url(../img/input.jpg);
+	padding-left: 10px;
+	padding-right: 10px;
+	color:#666666;
+	vertical-align: top;
+}
+.search #btn1{
+	margin-left: 0;
+	border: none;
+	width: 78px;
+	height: 36px;
+	background: url(../img/search.jpg);
+	vertical-align: top;
+}
+.search .hotSear{
+	position: relative;
+	top: 36px;
+	left: 410px;
+}
+.hotSear span{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+.hotSear a:hover{
+	text-decoration: underline;
+}
+.shopInfo{
+	float: right;
+	width: 252px;
+
+}
+
+
+
